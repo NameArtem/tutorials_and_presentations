@@ -16,9 +16,11 @@
 `Во-вторых`, объём кода в процессе разработки модели невелк, а в написании ETL процесса, часто много “домашних заготовок”, которые у DS|DA выработаны годами.
 
 Это означате, что стандартное количество строк (смотри рисунок внимателености ревьюэра)
+<p align="center"> 
 <img src="https://github.com/NameArtem/tutorials_and_presentations/blob/master/codeReview/code-review-best-practices-figure-01.gif?style=centerme"
      alt="LOC"
-     style="align: center;" />
+     style="align: center;" /></p>
+
 
 ![](https://github.com/NameArtem/tutorials_and_presentations/blob/master/codeReview/code-review-best-practices-figure-01.gif)
 img[src$="centerme"] {
