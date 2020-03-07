@@ -18,7 +18,7 @@
 Это означате, что стандартное количество строк (смотри рисунок внимателености ревьюэра)
 <img src="https://github.com/NameArtem/tutorials_and_presentations/blob/master/codeReview/code-review-best-practices-figure-01.gif"
      alt="LOC"
-     style="float: center; margin-right: 10px;" />
+     style="align: center;" />
 
 ![](https://github.com/NameArtem/tutorials_and_presentations/blob/master/codeReview/code-review-best-practices-figure-01.gif)
 
