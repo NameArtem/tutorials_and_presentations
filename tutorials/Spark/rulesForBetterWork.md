@@ -1,4 +1,4 @@
-The rules are based on (`Ted Malaska`)[https://github.com/TedBear42] speach fromw SparkSummit - Tricks of the Trade to be an Apache Spark Rock Star
+The rules are based on [`Ted Malaska`](https://github.com/TedBear42) speach fromw SparkSummit - Tricks of the Trade to be an Apache Spark Rock Star
 
 1. Use local demo and debugging (IDE could help you)
 
