@@ -1,4 +1,4 @@
-The rules are based on [`Ted Malaska`](https://github.com/TedBear42) speach fromw SparkSummit - Tricks of the Trade to be an Apache Spark Rock Star
+The rules are based on [`Ted Malaska`](https://github.com/TedBear42) speach from SparkSummit - Tricks of the Trade to be an Apache Spark Rock Star
 
 1. Use local demo and debugging (IDE could help you)
 
@@ -10,6 +10,10 @@ The rules are based on [`Ted Malaska`](https://github.com/TedBear42) speach from
 
 ![](img/nested_exp.png)
 
+5. Use SQL politicly 
 
-SQL
+hql```
 MAX(AMOUNT) -> MAX(cast(AMOUNT as DOUBLE))
+```
+
+6. Add more keys to joins 
