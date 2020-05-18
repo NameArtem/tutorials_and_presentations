@@ -12,7 +12,7 @@ The rules are based on [`Ted Malaska`](https://github.com/TedBear42) speach from
 
 5. Use SQL politicly 
 
-hql```
+```
 MAX(AMOUNT) -> MAX(cast(AMOUNT as DOUBLE))
 ```
 
