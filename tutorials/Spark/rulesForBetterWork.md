@@ -6,7 +6,7 @@
 
 4. Use nested types and DataFrames
 
-![](nested_exp.png)
+![](img/nested_exp.png)
 
 
 SQL
