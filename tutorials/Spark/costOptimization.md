@@ -8,6 +8,8 @@ ANALYZE TABLE table_name COMPUTE STATISTICS FOR COLUMNS col_name1, col_name2 ...
 
 ![](img/getStatistics.png)
 
+====================================
+
 **2. Filter cardinality estimation**
 
 ```
@@ -16,5 +18,7 @@ ANALYZE TABLE table_name COMPUTE STATISTICS FOR COLUMNS col_name1, col_name2 ...
 ```
 
 ![](img/cardinEx.png)
+
+====================================
 
 **3. **
