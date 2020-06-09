@@ -20,7 +20,7 @@
 
 Способствуют лучшему утилизации ресурсов
 
-scala```
+```scala
 spark.dynamicAllocation.enabled = true
 spark.dynamicAllocation.executorIdleTimeout = 2m
 // настраиваемое количество
@@ -33,20 +33,20 @@ spark.dynamicAllocation.maxExecutors = 2000
 
 3. Better fetch failure handling (find JIRA SPARK-19753, 20163, 13369, 20178)
 
-scala```
+```scala
 spark.max.fetch.failure.per.stage = 10
 ```
 
 4. Tune RPC Server threads
 
-scala```
+```scala
 //увеличим количество RPC (fix OOM)
 spark.rpc.io.serverThreads = 64
 ```
 
 5. Tuning memory (don't forget use garbage collector)
 
-scala```
+```scala
 //shuffle memory
 spark.memory.offHeap.enabled = true
 spark.memory.offHeap.size = 3g
@@ -60,7 +60,7 @@ spark.yarn.executor.memroyOverhead = 0.1 * (spark.executor.memroy + spark.memory
 
 Используем параллельный сборщик мусора, а не G1GC
 
-scala```
+```scala
 //G1GC1 => Parallel GC
 spark.executor.extraJavaOptions = -XX:ParallelGCThreads=4 -XX:+UseParallelGC
 ```
@@ -68,7 +68,7 @@ spark.executor.extraJavaOptions = -XX:ParallelGCThreads=4 -XX:+UseParallelGC
 
 6. I/O bottelneck (find JIRA SPARK-20074)
 
-scala```
+```scala
 spark.shullfe.file.buffer = 1 Mb
 spark.usafe.sorter.split.reader.buffer.size = 1 Mb
 
@@ -82,7 +82,7 @@ spark.io.compression.lz4.blockSize = 512 Kb
 
 7. User shuffle server (find JIRA SPARK-15074, 20640)
 
-scala```
+```scala
 spark.shullfe.service.index.cache.entries = 2048
 
 // thread and backlog
