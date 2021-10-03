@@ -1,0 +1,17 @@
+Attribute,Level,Partworth,Cost,Price
+Number of Games,3-Game,0.03257,,
+Number of Games,6-Game,0.24383,,
+Number of Games,10-Game,-0.2764,,
+Ticket Price,$15/seat/game,0.65646,10.00,15.00
+Ticket Price,$25/seat/game,0.22011,12.00,25.00
+Ticket Price,$35/seat/game,0.126,18.00,35.00
+Ticket Price,$60/seat/game,-1.00257,40.00,60.00
+Ticket Location,300BB,-0.73169,10.00,
+Ticket Location,300C,0.43716,12.00,
+Ticket Location,300M,0.15736,18.00,
+Ticket Location,200M,1.01148,40.00,
+Promo Item,Priority Playoff Tickets,0.12511,0.00,
+Promo Item,Dog n Pop,0.17428,3.25,
+Promo Item,Apparel,0.00158,12.00,
+Promo Item,$20 Certificate,0.01689,10.00,
+Promo Item,No Promo,-0.31786,0.00,
